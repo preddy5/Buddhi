@@ -14,7 +14,6 @@ These two properties are also interesting to us from a computation efficiency pe
 Apart from these direct benefits, SNN's are also interesting because of various other reasons, a few being:
 * The difficult problem of training a highly parameterized hierarchical network that communicates with discrete values. 
 * Ability to explore ideas like polychronization for the problem of feature binding. 
-* Interest from academic heavy weights like Prof. Hinton.
 
 Despite their advantages and biological plausibility SNN research could not gather similar amount of interest as ANN's from the larger scientific community. A major reason for this is that leading SNN models biologically plausible or otherwise are less accurate than their ANN counterparts. In this repository I present BITnets shallow SNN models trained using Buddhi activation that outperforms many deep ANN's on Cifar10, Cifar100 and Tiny-Imagenet classification task. Interestingly the networks presented in this repository are shallower than AlexNet and same depth(loosely) as the neocortex.
 
